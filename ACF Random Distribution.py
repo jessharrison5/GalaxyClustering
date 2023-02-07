@@ -19,6 +19,7 @@ galaxies = np.column_stack((galaxy_mass, galaxy_ascension, galaxy_declination, g
 """This is checking that this plots that is correctly"""
 plt.figure()
 plt.plot(galaxy_ascension, galaxy_declination, 'b.')
+plt.show()
 
 #%%
 """Trying to filter out the galaxies at different redshift intervals"""
@@ -39,6 +40,7 @@ galaxy_declination = np.random.uniform(low=-5.5, high=-5.3, size=num_galaxies)# 
 galaxies = np.column_stack((galaxy_mass, galaxy_ascension, galaxy_declination, galaxy_redshift))
 
 plt.plot(ID, galaxy_redshift, 'k.')
+plt.show()
 
 
 #%% 
@@ -79,3 +81,5 @@ Dec_centre = (Dec_min + Dec_max) / 2
 UNCOMMENT WHEN ALL PREVIOUS STEPS HAVE BEEN CODED
 LS_est = (DD-2*DR+RR)/RR
 """
+
+# %%
