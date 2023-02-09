@@ -76,6 +76,8 @@ def estimated_autocorrelation(x):
 RA_centre = (RA_min + RA_max) / 2
 Dec_centre = (Dec_min + Dec_max) / 2
 
+"""Now need to code the circular bins for each of the """
+
 
 """
 UNCOMMENT WHEN ALL PREVIOUS STEPS HAVE BEEN CODED
